@@ -3,12 +3,13 @@ Online handwriting recognition and input tool for Thamizh (Tamil).
 
 ## Attribution
 **Original source for Malayalam:** https://gitlab.com/santhoshtr/hand
+
 **Original demo site:**  https://thottingal.in/projects/hand/
 
 ## How it works?
 The core logic of recognition is **curve matching**. Predefined curves are saved for each ligatures of Thamizh letters (which is configurable too). Based on the characters drawn by the users, a matching score will be calculated and suggestions will be printed over the screen.
 
-Since people write the letters in random styles, the curve matching should take care of these variations. Scaling up or down, rotation, distortions in the curve, some amount of flexibility for errors etc. For this kind of curve matching we use https://github.com/chanind/curve-matcher which is a https://en.wikipedia.org/wiki/Procrustes_analysis basd curve matching implementation.
+Since people write the letters in random styles, the curve matching should take care of these variations. Scaling up or down, rotation, distortions in the curve, some amount of flexibility for errors etc. For this kind of curve matching we use https://github.com/chanind/curve-matcher which is a https://en.wikipedia.org/wiki/Procrustes_analysis based curve matching implementation.
 
 ## Caution 
 There may be false positives as well, due to resemblance between each ligatures
