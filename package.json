@@ -1,8 +1,8 @@
 {
-  "name": "mlhand",
+  "name": "tamil-hand",
   "version": "1.0.0",
-  "description": "Malayalam Handwriting recognition",
-  "main": "dist/mlhand.js",
+  "description": "Thamizh(Tamil) Handwriting recognition",
+  "main": "dist/tamil-hand.js",
   "directories": {
     "lib": "lib"
   },
@@ -12,20 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/santhoshtr/hand.git"
+    "url": "git@github.com:Kondasamy/tamil-handwriting-recognition.git"
   },
   "keywords": [
     "Malayalam"
   ],
   "author": {
-    "name": "Santhosh Thottingal",
-    "email": "santhosh.thottingal@gmail.com"
+    "name": "Kondasamy Jayaraman",
+    "email": "kondasamy@pm.me"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/santhoshtr/hand/issues"
+    "url": "https://github.com/Kondasamy/tamil-handwriting-recognition/issues"
   },
-  "homepage": "https://gitlab.com/santhoshtr/hand#readme",
+  "homepage": "https://github.com/Kondasamy/tamil-handwriting-recognition#readme",
   "dependencies": {
     "curve-matcher": "^1.1.0",
     "simplify-js": "^1.2.3"
