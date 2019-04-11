@@ -2,7 +2,7 @@ import Pad from './pad'
 import simplify from 'simplify-js'
 import Events from './events'
 import Match from './match'
-import PATTERNDATA from './malayalam.json'
+import PATTERNDATA from './thamizh.json'
 
 export default class Mlhand {
   constructor (options) {
