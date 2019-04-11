@@ -24,3 +24,8 @@ To add a shape that is not already supported,
 ## Building the application
 1. After checking out the source code. Run `npm install` to install all dependencies and building tools. 
 2. Then run `npm run build`. You will see a dist foler created and production ready JS library in it.
+
+## Goals
+- [ ] Add Tamil font coordinates for each ligatures and check the correctness
+- [ ] Improve the user interface of the website (Dangling UI in Mobile)
+- [ ] Improvise the algorithm to accurately detect characters (reduce false positives as much as possible)
